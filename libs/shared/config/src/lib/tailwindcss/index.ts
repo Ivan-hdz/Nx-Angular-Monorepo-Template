@@ -1,0 +1,1 @@
+export {defaultThemeColors} from './themes';

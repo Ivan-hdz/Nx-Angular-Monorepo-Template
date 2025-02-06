@@ -1,0 +1,1 @@
+export {ngxTranslateModuleConfig} from './module.config';

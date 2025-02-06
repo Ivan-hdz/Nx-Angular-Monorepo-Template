@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@patito-corp/landing-config": ["libs/landing/config/src/index.ts"],
+      "@patito-corp/landing-data-access": [
+        "libs/landing/data-access/src/index.ts"
+      ],
+      "@patito-corp/landing-feature-shell": [
+        "libs/landing/feature-shell/src/index.ts"
+      ],
+      "@patito-corp/landing-inicio": [
+        "libs/landing/features/home/src/index.ts"
+      ],
+      "@patito-corp/landing-ui": ["libs/landing/ui/src/index.ts"],
+      "@patito-corp/landing-utils": ["libs/landing/utils/src/index.ts"],
+      "@patito-corp/shared-config": ["libs/shared/config/src/index.ts"],
+      "@patito-corp/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@patito-corp/shared-utils": ["libs/shared/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
